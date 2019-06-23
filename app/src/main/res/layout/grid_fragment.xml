@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:orientation="vertical">
+
+    <com.faz.gameoflife.widget.GridWidget
+        android:id="@+id/gridWidget"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/playBtn"
+            android:src="@drawable/ic_play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/stepBtn"
+            android:src="@drawable/ic_step"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/saveBtn"
+            android:src="@drawable/ic_save"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/reloadBtn"
+            android:src="@drawable/ic_reload"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/clearBtn"
+            android:src="@drawable/ic_clear"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</LinearLayout>

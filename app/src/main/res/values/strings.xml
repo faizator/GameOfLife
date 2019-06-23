@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GameOfLife</string>
+    <string name="settings">Настройки</string>
+    <string name="pattern_select">Выбор шаблона</string>
+    <string name="grid_width">Ширина сетки</string>
+    <string name="grid_height">Высота сетки</string>
+</resources>
